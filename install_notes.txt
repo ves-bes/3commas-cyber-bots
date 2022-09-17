@@ -1,0 +1,14 @@
+## 2022.09.17
+
+1. Forked cyberjunky/3commas-cyber-bots.git
+2. git clone git@github.com:ves-bes/3commas-cyber-bots.git
+3. cd 3commas-cyber-bots/
+4. nano setup.sh
+   Added python v10 the the function 'check_installed_python'
+5. git config --global user.email "vesbes@proton.me"
+   git config --global user.name "vesbes"
+   git add setup.sh
+   git commit
+   git push
+6. ./setup.sh
+7. pip3 install -r requirements.txt
