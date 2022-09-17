@@ -21,7 +21,7 @@ function check_installed_python() {
         exit 2
     fi
 
-    for v in 9 8 7
+    for v in 10 9 8 7
     do
         PYTHON="python3.${v}"
         which $PYTHON
